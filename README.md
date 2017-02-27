@@ -6,12 +6,6 @@ A probability brain teaser was based off of the game.  The question is whether a
 
 This program allows you to run 1 or more game scenarios to see if a player does better by sticking with his initial choice or changing his mind.  The number of scenarios can be chosen by setting the testRounds variable.
 
-Each round starts with a random door being chosen.  The same choice is assigned to the Stays plaer and the Changes player.  We then track his outcome if he keeps his original door or changes to the door left by the host.  Both winning percentages are reported.
+Each round starts with a random door being chosen.  The same choice is assigned to the Stays player and the Changes player.  We then track his outcome if he keeps his original door or changes to the door left by the host.  Both winning percentages are reported.
 
 This is the first program I've written in Ruby (outside of guided homework assignments on Codecademy).  The code works, but, it's rather rough.  I will be cleaning it up as I have time.
-
-===========
-Future Optimizations
-- allow user to decide if they will 'stay' or 'change' then report back how they did
-- provide visualizations of the win/loss records
-- create player class which contain most of the code (simplify the code that is involved in running the tests)
